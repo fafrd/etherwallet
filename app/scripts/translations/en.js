@@ -77,8 +77,8 @@ NAV_InteractContract        : 'Interact with Contract ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'My Wallets ',
 NAV_Offline                 : 'Send Offline ',
-NAV_SendEther               : 'Send Ether & Tokens ',
-NAV_SendTokens              : 'Send Tokens ',
+NAV_SendEther               : 'Send Ether & Cards',
+NAV_SendTokens              : 'Send Cards ',
 NAV_SignMsg                 : 'Sign Message ',
 NAV_Swap                    : 'Swap ',
 NAV_ViewWallet              : 'View Wallet Info ',
@@ -86,7 +86,7 @@ NAV_YourWallets             : 'Your Wallets ',
 
 /* General */
 x_Access                    : 'Access ',
-x_AddessDesc                : 'Your Address can also be known as you `Account #` or your `Public Key`. It is what you share with people so they can send you Ether or Tokens. Find the colorful address icon. Make sure it matches your paper wallet & whenever you enter your address somewhere.',
+x_AddessDesc                : 'Your Address can also be known as you `Account #` or your `Public Key`. It is what you share with people so they can send you Ether or Cards. Find the colorful address icon. Make sure it matches your paper wallet & whenever you enter your address somewhere.',
 x_Address                   : 'Your Address ',
 x_Cancel                    : 'Cancel ',
 x_CSV                       : 'CSV file (unencrypted) ',
@@ -126,7 +126,7 @@ FOOTER_4                    : 'Disclaimer ',
 sidebar_AccountInfo         : 'Account Information ',
 sidebar_AccountAddr         : 'Account Address ',
 sidebar_AccountBal          : 'Account Balance ',
-sidebar_TokenBal            : 'Token Balances ',
+sidebar_TokenBal            : 'Card Balances ',
 sidebar_Equiv               : 'Equivalent Values ',
 sidebar_TransHistory        : 'Transaction History ',
 sidebar_donation            : 'MyCurioWallet is built on [MyEtherWallet](https://myetherwallet.com). Click here to learn more and support their project: [github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet)',
@@ -212,7 +212,7 @@ BULK_SuccessMsg             : 'Success! Your wallets have been generated. ',
 SEND_addr                   : 'To Address ',
 SEND_amount                 : 'Amount to Send ',
 SEND_amount_short           : 'Amount ',
-SEND_custom                 : 'Add Custom Token ',
+SEND_custom                 : 'Add Card Manually ',
 SEND_gas                    : 'Gas ',
 SEND_TransferTotal          : 'Send Entire Balance ',
 SEND_generate               : 'Generate Transaction ',
@@ -230,13 +230,13 @@ SENDModal_Yes               : 'Yes, I am sure! Make transaction. ',
 
 /* Tokens */
 TOKEN_Addr                  : 'Address ',
-TOKEN_Symbol                : 'Token Symbol ',
+TOKEN_Symbol                : 'Card Symbol ',
 TOKEN_Dec                   : 'Decimals ',
-TOKEN_show                  : 'Show All Tokens ',
-TOKEN_hide                  : 'Hide Tokens ',
+TOKEN_show                  : 'Show All Cards ',
+TOKEN_hide                  : 'Hide Cards ',
 
 /* Send Transaction */
-TRANS_desc                  : 'If you want to send Tokens, please use the "Send Token" page instead. ',
+TRANS_desc                  : 'If you want to send Cards, please use the "Send Card" page instead. ',
 TRANS_advanced              : '+Advanced: Add Data ',
 TRANS_data                  : 'Data ',
 TRANS_gas                   : 'Gas Limit ',
@@ -306,7 +306,7 @@ SWAP_progress_3             : "Received! ", // ETH Received!
 SWAP_progress_4             : "Sending your {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Order Complete ",
 SWAP_order_CTA              : "Please send ", // Please send 1 ETH...
-SWAP_unlock                 : "Unlock your wallet to send ETH or Tokens directly from this page. ",
+SWAP_unlock                 : "Unlock your wallet to send ETH or Cards directly from this page. ",
 
 /* Sign Message */
 MSG_message                 : 'Message ',
@@ -346,7 +346,7 @@ ERROR_13                    : 'A wallet with this nickname already exists. ', //
 ERROR_14                    : 'Wallet not found. ', // 14
 ERROR_15                    : 'Whoops. It doesn\'t look like a proposal with this ID exists yet or there is an error reading this proposal. ', // 15 - NOT USED
 ERROR_16                    : 'A wallet with this address already exists in storage. Please check your wallets page. ', // 16
-ERROR_17                    : 'Account you are sending from does not have enough funds. If sending tokens, you must have 0.01 ETH in your account to cover the cost of gas. ', // 17
+ERROR_17                    : 'Account you are sending from does not have enough funds. If sending cards, you must have 0.01 ETH in your account to cover the cost of gas. ', // 17
 ERROR_18                    : 'All gas would be used on this transaction. This means you have already voted on this proposal or the debate period has ended.', // 18
 ERROR_19                    : 'Please enter a valid symbol', // 19
 ERROR_20                    : 'Not a valid ERC-20 token', // 20
