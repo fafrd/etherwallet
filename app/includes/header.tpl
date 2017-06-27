@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>MyEtherWallet: Open-Source & Client-Side Ether Wallet</title>
-  <link rel="canonical" href="https://www.myetherwallet.com" />
+  <link rel="canonical" href="https://www.curiowallet.com" />
   <meta name="description" content="Open-Source & Client-Side Ethereum Wallet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@
   <meta name="msapplication-config" content="images/fav/browserconfig.xml">
   <meta name="theme-color" content="#163151">
 
-  <meta property="og:url"         content="https://www.MyEtherWallet.com" />
+  <meta property="og:url"         content="https://www.curiowallet.com" />
   <meta property="og:title"       content="MyEtherWallet.com" />
   <meta property="og:description" content="MyEtherWallet: Open-Source & Client-Side Ether Wallet" />
   <meta property="og:image"       content="images/fb-myetherwallet.png" />
@@ -49,7 +49,7 @@
     <section class="container">
 
       @@if (site === 'mew' ) {
-        <a class="brand" href="https://www.myetherwallet.com/" aria-label="Go to homepage">
+        <a class="brand" href="https://www.curiowallet.com/" aria-label="Go to homepage">
           <img src="images/logo-myetherwallet.svg"   height="64px" width="245px" alt="MyEtherWallet" />
         </a>
       }

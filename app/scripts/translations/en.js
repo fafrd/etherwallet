@@ -116,8 +116,8 @@ MEW_Tagline                 : 'Open Source JavaScript Client-Side Ether Wallet '
 MEW_Warning_1               : 'Always check the URL before accessing your wallet or creating a new wallet. Beware of phishing sites! ',
 
 /* Footer */
-FOOTER_1                    : 'Free, open-source, client-side tool for easily &amp; securely interacting with the Ethereum network. ',
-FOOTER_1b                   : 'Created by ',
+FOOTER_1                    : 'MyCurioWallet is a fork of [MyEtherWallet](https://myetherwallet.com), a free, open-source, client-side tool for easily &amp; securely interacting with the Ethereum network. ',
+FOOTER_1b                   : 'MyEtherWallet was created by ',
 FOOTER_2                    : 'Donations greatly appreciated ',
 FOOTER_3                    : 'Client-side wallet generation by ',
 FOOTER_4                    : 'Disclaimer ',
@@ -129,7 +129,7 @@ sidebar_AccountBal          : 'Account Balance ',
 sidebar_TokenBal            : 'Token Balances ',
 sidebar_Equiv               : 'Equivalent Values ',
 sidebar_TransHistory        : 'Transaction History ',
-sidebar_donation            : 'MyEtherWallet is a free, open-source service dedicated to your privacy and security. The more donations we receive, the more time we spend creating new features, listening to your feedback, and giving you what you want. We are just two people trying to change the world. Help us? ',
+sidebar_donation            : 'MyCurioWallet is built on [MyEtherWallet](https://myetherwallet.com). Click here to learn more and support their project: [github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet)',
 sidebar_donate              : 'Donate ',
 sidebar_thanks              : 'THANK YOU!!! ',
 
