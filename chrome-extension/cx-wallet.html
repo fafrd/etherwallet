@@ -2,9 +2,9 @@
 <html lang="en" ng-app="mewApp">
 <head>
   <meta charset="utf-8">
-  <title>MyEtherWallet: Open-Source & Client-Side Ether Wallet</title>
+  <title>MyCurioWallet</title>
   <link rel="canonical" href="https://www.curiowallet.com" />
-  <meta name="description" content="Open-Source & Client-Side Ethereum Wallet">
+  <meta name="description" content="Wallet for Curio Cards, based on MyEtherWallet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/etherwallet-master.min.css">
@@ -21,8 +21,8 @@
   <meta name="theme-color" content="#163151">
 
   <meta property="og:url"         content="https://www.curiowallet.com" />
-  <meta property="og:title"       content="MyEtherWallet.com" />
-  <meta property="og:description" content="MyEtherWallet: Open-Source & Client-Side Ether Wallet" />
+  <meta property="og:title"       content="CurioWallet.com" />
+  <meta property="og:description" content="Wallet for Curio Cards, based on MyEtherWallet" />
   <meta property="og:image"       content="images/fb-myetherwallet.png" />
   <meta property="og:image"       content="images/fb-mewtwo.jpg" />
 </head>

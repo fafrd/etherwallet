@@ -33,6 +33,16 @@ Wallet.prototype.setTokens = function() {
         this.tokenObjs.push(new Token(storedTokens[i].contractAddress, this.getAddressString(), globalFuncs.stripTags(storedTokens[i].symbol), storedTokens[i].decimal, storedTokens[i].type));
         this.tokenObjs[this.tokenObjs.length - 1].setBalance();
     }
+    var sheetKey = "1sOiiSa2FkMQjkgDVUhnQW7pyAG1f3d9EMPzrQoox2oQ"
+    var url = "https://spreadsheets.google.com/feeds/list/" + sheetKey + "/od6/public/values?alt=json"
+    fetch(url)
+    .then(res => res.json())
+    .then((out) => {
+        for (var i = 0; i < out["feed"]["entry"].length; i++) {
+            this.tokenObjs.push(new Token(out["feed"]["entry"][i]["gsx$token"]["$t"], this.getAddressString(), out["feed"]["entry"][i]["gsx$symbol"]["$t"], 0, "default"));
+            this.tokenObjs[this.tokenObjs.length - 1].setBalance();
+        }
+    })
 }
 Wallet.prototype.setBalance = function(callback) {
     var parentObj = this;
