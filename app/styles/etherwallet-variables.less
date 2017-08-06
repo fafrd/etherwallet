@@ -1,7 +1,229 @@
 // Colors
-@ether-navy                                  : #163151;
-@ether-blue                                  : #0e97c0;
+//@ether-navy                                  : #163151;
+//@ether-blue                                  : #0e97c0;
 
+@ether-navy                                  : #4619b4;
+@ether-blue                                  : #ce2173;
+
+@gray-base                                   : #000;
+@gray-darker                                 : lighten(@gray-base, 13.5%);
+@gray-dark                                   : lighten(@gray-base, 20%);
+@gray                                        : #737373;
+@gray-light                                  : #9A9A9A;
+@gray-lighter                                : #ECECEC;
+@gray-lightest                               : #FAFAFA;
+
+@brand-primary                               : @ether-blue;
+@brand-success                               : #5dba5a;
+@brand-info                                  : @ether-navy;
+@brand-warning                               : #ff9800;
+@brand-danger                                : #ea4b40;
+
+@body-bg                                     : #fbfbfb;
+@text-color                                  : @gray-dark;
+
+@link-color                                  : @brand-primary;
+@link-hover-color                            : darken(@link-color, 5%);
+@link-hover-decoration                       : none;
+
+// Typography
+@font-family-sans-serif                      : 'Lato', sans-serif;
+@font-family-serif                           : Georgia, "Times New Roman", Times, serif;
+@font-family-monospace                       : Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base                            : @font-family-sans-serif;
+
+@base                                        : 15;
+@font-size-pixels                            : @base+px;
+@font-size-pixels-xl                         : @base+1px; // for xl screens
+@font-size-pixels-sm                         : @base+px; // for small screens
+
+@font-size-large-bump                        : 2.25rem; // 33.75
+@font-size-large                             : 1.90rem; // 28.5
+@font-size-medium-bump                       : 1.50rem; // 22.5
+@font-size-medium                            : 1.30rem; // 19.5
+@font-size-bump-more                         : 1.15rem; // 17.25
+@font-size-bump                              : 1.07rem; // 16.05
+@font-size-base                              : 1.00rem; // 15
+@font-size-small                             : 0.92rem; // 13.8
+@font-size-xs                                : 0.80rem; // 12
+
+@font-size-h1                                : @font-size-large-bump;
+@font-size-h2                                : @font-size-large;
+@font-size-h3                                : @font-size-medium-bump;
+@font-size-h4                                : @font-size-medium;
+@font-size-h5                                : @font-size-bump-more;
+@font-size-h6                                : @font-size-bump;
+
+@line-height-base                            : 1.4;
+@line-height-computed                        : 1.4;
+
+@headings-font-family                        : inherit;
+@headings-font-weight                        : 700;
+@headings-line-height                        : 1.2;
+@headings-color                              : inherit;
+
+@icon-font-path                              : "../fonts/";
+@icon-font-name                              : "glyphicons-halflings-regular";
+@icon-font-svg-id                            : "glyphicons_halflingsregular";
+
+// Spacing
+@space-xs                                    : 0.25rem;
+@space-sm                                    : 0.50rem;
+@space-md                                    : 0.75rem;
+@space                                       : 1.00rem;
+@space-lg                                    : 1.50rem;
+@space-xl                                    : 2.00rem;
+
+@padding-base-vertical                       : @space*.75;
+@padding-base-horizontal                     : @space-lg;
+
+@padding-large-vertical                      : @space;
+@padding-large-horizontal                    : @space-xl;
+
+@padding-small-vertical                      : @space-sm;
+@padding-small-horizontal                    : @space;
+
+@padding-xs-vertical                         : 0.1rem;
+@padding-xs-horizontal                       : 0.6rem;
+
+@line-height-large                           : 1.2;
+@line-height-small                           : 1.5;
+
+@border-radius                               : 0px;
+
+@component-active-color                      : #fff;
+@component-active-bg                         : @brand-primary;
+
+@caret-width-base                            : @space-xs;
+@caret-width-large                           : @space-xs;
+
+// Tables
+@table-cell-padding                          : @space-sm;
+@table-condensed-cell-padding                : @space-xs;
+@table-bg                                    : transparent;
+@table-bg-accent                             : #f9f9f9;
+@table-bg-hover                              : @gray-lightest;
+@table-bg-active                             : @table-bg-hover;
+@table-border-color                          : #ddd;
+
+// Buttons
+@btn-font-weight                             : normal;
+
+@btn-default-color                           : #222;
+@btn-default-bg                              : #c3c3c3;
+@btn-default-border                          : #bdbdbd;
+
+@btn-primary-color                           : #fff;
+@btn-primary-bg                              : @brand-primary;
+@btn-primary-border                          : @btn-primary-bg;
+
+@btn-success-color                           : #fff;
+@btn-success-bg                              : @brand-success;
+@btn-success-border                          : @btn-success-bg;
+
+@btn-info-color                              : #fff;
+@btn-info-bg                                 : @brand-info;
+@btn-info-border                             : @btn-info-bg;
+
+@btn-warning-color                           : #fff;
+@btn-warning-bg                              : @brand-warning;
+@btn-warning-border                          : @btn-warning-bg;
+
+@btn-danger-color                            : #fff;
+@btn-danger-bg                               : @brand-danger;
+@btn-danger-border                           : @btn-danger-bg;
+
+@btn-link-disabled-color                     : @gray-light;
+
+@btn-border-radius-base                      : 0px;
+@btn-border-radius-large                     : 0px;
+@btn-border-radius-small                     : 0px;
+
+// Forms
+@input-bg                                    : #fff;
+@input-bg-disabled                           : @gray-lightest;
+@input-color                                 : #333333;
+@input-border                                : @gray-lighter;
+@input-border-focus                          : @brand-primary;
+@input-color-placeholder                     : darken(@gray-lighter, 10%);
+
+@input-height-base                           : 2.55rem;
+@input-height-large                          : 4rem;
+@input-height-small                          : 2rem;
+
+@form-group-margin-bottom                    : @space-sm;
+
+@legend-color                                : @gray-dark;
+@legend-border-color                         : #e5e5e5;
+
+@input-group-addon-bg                        : @gray-lighter;
+@input-group-addon-border-color              : @input-border;
+
+@cursor-disabled                             : default;
+
+@dropdown-bg                                 : #fff;
+@dropdown-border                             : rgba(0,0,0,.15);
+@dropdown-fallback-border                    : @gray-lighter;
+@dropdown-divider-bg                         : #e5e5e5;
+@dropdown-link-color                         : @ether-navy;
+@dropdown-link-hover-color                   : @ether-blue;
+@dropdown-link-hover-bg                      : @gray-lightest;
+@dropdown-link-active-color                  : @component-active-color;
+@dropdown-link-active-bg                     : @component-active-bg;
+@dropdown-link-disabled-color                : @gray-light;
+@dropdown-header-color                       : @gray-light;
+@dropdown-caret-color                        : #000;
+
+@zindex-navbar                               : 1000;
+@zindex-dropdown                             : 1000;
+@zindex-popover                              : 1060;
+@zindex-tooltip                              : 1070;
+@zindex-navbar-fixed                         : 1030;
+@zindex-modal-background                     : 1040;
+@zindex-modal                                : 1050;
+@zindex-alerts                               : 1060;
+
+@screen-xs                                   : 32rem;
+@screen-xs-min                               : @screen-xs;
+@screen-sm                                   : 51.2rem;
+@screen-sm-min                               : @screen-sm;
+@screen-md                                   : 66.133333333rem;
+@screen-md-min                               : @screen-md;
+@screen-lg                                   : 80rem;
+@screen-lg-min                               : @screen-lg;
+@screen-xl                                   : 94rem;
+@screen-xl-min                               : @screen-xl;
+@screen-xs-max                               : (@screen-sm-min - 1);
+@screen-sm-max                               : (@screen-md-min - 1);
+@screen-md-max                               : (@screen-lg-min - 1);
+@screen-lg-max                               : (@screen-xl-min - 1);
+
+@grid-columns                                : 12;
+@grid-gutter-width                           : 2rem;
+@grid-float-breakpoint                       : @screen-sm-min;
+@grid-float-breakpoint-max                   : (@grid-float-breakpoint - 1);
+
+@cont-padding                                : 1%;
+@cont-padding-lg                             : 3%;
+@cont-width                                  : 113rem;
+@container-tablet                            : (48rem + @grid-gutter-width);
+@container-sm                                : @container-tablet;
+@container-desktop                           : (62rem + @grid-gutter-width);
+@container-md                                : @container-desktop;
+@container-large-desktop                     : (76rem + @grid-gutter-width);
+@container-lg                                : @container-large-desktop;
+
+@border-radius-small                         : 0px;
+@border-radius-base                          : 0px;
+@border-radius-large                         : 0px;
+@input-border-radius                         : 0px;
+@input-border-radius-small                   : 0px;
+@input-border-radius-large                   : 0px;
+
+@navbar-height                               : 3.333rem;
+@navbar-margin-bottom                        : @line-height-computed;
+@navbar-border-radius                        : @border-radius-base;
+@navbar-padding-horizontal                   : floor((@grid-gutter-width / 2));
 @gray-base                                   : #000;
 @gray-darker                                 : lighten(@gray-base, 13.5%);
 @gray-dark                                   : lighten(@gray-base, 20%);
